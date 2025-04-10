@@ -1,18 +1,33 @@
-# MDPPP - Machine Learning / Data Processing Project
+# MDPPP - Monkeypox Detection using Skin Lesion Images
 
-This repository contains the Jupyter Notebook `MDPPP.ipynb`, which demonstrates a comprehensive approach to machine learning and data processing using Python.
+This repository contains the Jupyter Notebook `MDPPP.ipynb`, which demonstrates a machine learning approach for detecting Monkeypox through skin lesion image classification.
 
 ## 📘 Project Overview
 
 The notebook includes:
 
-- 📊 Data loading and preprocessing
-- 📈 Exploratory data analysis (EDA)
-- 🧠 Machine learning model training and evaluation
-- 📉 Performance visualization
-- 📦 Exporting results and/or models
+- 📥 Loading and preprocessing image data
+- 🖼️ Visualizing skin lesion samples
+- 🧠 Building and training deep learning models for image classification
+- 📉 Evaluating model performance using metrics and plots
+- 💾 Saving trained models for inference
 
-The purpose of this project is to [insert goal or objective here, e.g., "predict stock market trends," "classify images," "detect anomalies in network traffic," etc.].
+This project aims to build a reliable model for the early detection of Monkeypox using skin lesion images, aiding in fast and efficient diagnosis.
+
+## 📂 Dataset Used
+
+The dataset used in this project is the **Monkeypox Skin Lesion Dataset**, sourced from Kaggle:
+
+🔗 [Monkeypox Skin Lesion Dataset by nafin59](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
+
+It contains categorized images of skin lesions, including:
+
+- Monkeypox
+- Chickenpox
+- Measles
+- Normal skin
+
+The dataset is essential for training models to distinguish between similar-looking skin conditions.
 
 ## 🛠️ Technologies Used
 
@@ -20,5 +35,6 @@ The purpose of this project is to [insert goal or objective here, e.g., "predict
 - Jupyter Notebook
 - NumPy, Pandas
 - Matplotlib, Seaborn
-- Scikit-learn / TensorFlow / PyTorch *(if used)*
-- Other libraries *(list them if applicable)*
+- TensorFlow / Keras
+- Scikit-learn
+- OpenCV (optional, if used for preprocessing)
